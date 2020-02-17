@@ -1,0 +1,12 @@
+server:
+  port: 4444
+spring:
+  application:
+    name: provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.108:8080/eureka
+  instance:
+    instance-id: provider
+    prefer-ip-address: true
