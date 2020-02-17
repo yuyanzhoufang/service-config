@@ -2,7 +2,7 @@ server:
   port: 4444
 spring:
   application:
-    name: provider-1
+    name: provider
 eureka:
   client:
     service-url:
